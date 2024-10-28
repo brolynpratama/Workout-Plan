@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Workout Gym</h1>
+        <nav>
+            <ul>
+                <li><a href="#back">Back</a></li>
+                <li><a href="#chest">Chest</a></li>
+                <li><a href="#legs">Legs</a></li>
+                <li><a href="#shoulders">Shoulders</a></li>
+                <li><a href="#arms">Arms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="back">
+            <h2>Back Workouts</h2>
+            <div class="workout">
+                <h3>Pull-Ups</h3>
+                <p>Reps: 10</p>
+                <button onclick="addToPlan('Pull-Ups')">Add to Plan</button>
+            </div>
+            <div class="workout">
+                <h3>Deadlifts</h3>
+                <p>Reps: 12</p>
+                <button onclick="addToPlan('Deadlifts')">Add to Plan</button>
+            </div>
+        </section>
+        <section id="chest">
+            <h2>Chest Workouts</h2>
+            <div class="workout">
+                <h3>Bench Press</h3>
+                <p>Reps: 10</p>
+                <button onclick="addToPlan('Bench Press')">Add to Plan</button>
+            </div>
+            <div class="workout">
+                <h3>Push-Ups</h3>
+                <p>Reps: 15</p>
+                <button onclick="addToPlan('Push-Ups')">Add to Plan</button>
+            </div>
+        </section>
+        <section id="legs">
+            <h2>Leg Workouts</h2>
+            <div class="workout">
+                <h3>Squats</h3>
+                <p>Reps: 20</p>
+                <button onclick="addToPlan('Squats')">Add to Plan</button>
+            </div>
+            <div class="workout">
+                <h3>Leg Press</h3>
+                <p>Reps: 12</p>
+                <button onclick="addToPlan('Leg Press')">Add to Plan</button>
+            </div>
+        </section>
+        <section id="shoulders">
+            <h2>Shoulder Workouts</h2>
+            <div class="workout">
+                <h3>Overhead Press</h3>
+                <p>Reps: 10</p>
+                <button onclick="addToPlan('Overhead Press')">Add to Plan</button>
+            </div>
+            <div class="workout">
+                <h3>Lateral Raises</h3>
+                <p>Reps: 15</p>
+                <button onclick="addToPlan('Lateral Raises')">Add to Plan</button>
+            </div>
+        </section>
+        <section id="arms">
+            <h2>Arm Workouts</h2>
+            <div class="workout">
+                <h3>Bicep Curls</h3>
+                <p>Reps: 12</p>
+                <button onclick="addToPlan('Bicep Curls')">Add to Plan</button>
+            </div>
+            <div class="workout">
+                <h3>Tricep Dips</h3>
+                <p>Reps: 10</p>
+                <button onclick="addToPlan('Tricep Dips')">Add to Plan</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@workoutgym.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Workout Gym</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
